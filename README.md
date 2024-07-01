@@ -6,7 +6,7 @@ Bgreat es una empresa especializada en la venta de artículos tecnológicos y di
 
 ### Descripción del Problema:
 
-1. **Gestión de Clientes**: Necesitamos una base de datos para llevar un registro sobre lo clientes y poder llegar a calcular distintos KPI, que permitan clasificarlos en disitintas categorias para poder agrupar y fidelizar.
+1. **Gestión de Clientes**: Necesitamos una base de datos para llevar un registro sobre lo clientes y poder llegar a calcular distintos KPI, que permitan clasificarlos en disitintas categorías en posteriores estapas del desarrollo y de esta manera agrupar y fidelizar.
 2. **Gestión de Stock**: Este negocio cuenta con distintas posibilidades en donde poder hacer las compras, por lo tanto es necesario llevar una base de datos que pueda registrar las distintas disponibilidades de los productos para hacer el seguimiento correcto.
 3. **Regsitro y trazabilidad del negocio**:  que registre y trace todas las transacciones y actividades operativas de la empresa para poder generar informes de calidad e identificar áreas de mejora.
 
@@ -15,3 +15,5 @@ Bgreat es una empresa especializada en la venta de artículos tecnológicos y di
 Desarrollar una base de datos integral y eficiente que permita una estrucutra robusta que logre centralizar, organizar y gestionar el core del negocio en Bgreat.
 
 ### Tablas:
+![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/c0dae6a4-2be2-4446-8dc6-fed80d7b2da0)
+
