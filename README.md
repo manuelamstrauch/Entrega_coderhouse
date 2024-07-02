@@ -24,9 +24,21 @@ Bgreat es una empresa especializada en la venta de artículos tecnológicos y di
 En este contexto, el principal objetivo es desarrollar una base de datos integral y eficiente que permita una estrucutra robusta que centralice, organice y gestione el core del negocio en Bgreat.
 
 ### Tablas:
-1. **CLIENTE**:
+1. **ZONA**:
 
-![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/c0dae6a4-2be2-4446-8dc6-fed80d7b2da0)
+![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/205fd191-ae31-4b15-aea9-ba65e5ae54d3)
+
+La tabla zona es dimensional, se usa on el fin de registrar las distintas zonas y poder asignarle un precio de envío. 
+
+Atributos:
+- ID_ZONA: identificador único. 
+- NOMBRE:
+- PRECIO ENVIO
+
+
+2. **CLIENTES**:
+
+![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/51b2dadc-af59-46ed-9daf-92011ed4faee)
 
 La tabla de clientes se clasifica como dimensional. Esta  almacena a todos los clientes que se hayan hecho alguna compra.
 
@@ -37,8 +49,9 @@ Atributos:
 - CELULAR: número de contacto.
 - DIRECCIÓN: registro de dirección en caso de realizarse la compra con envío. 
 - EMAIL: correo de contacto.
+- ID_ZONA: FK, identifica la zona.
 
-2. **TIENDA**:
+3. **TIENDA**:
    
 ![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/aae78c13-9941-4467-92c7-9172215a745b)
 
@@ -46,10 +59,10 @@ La tabla es dimensional y registra la identificación de los distintos tipos de 
 
 Atributos:
 - ID_TIENDA: identificador único. 
-- NOMBRE: ejemplo ("Bgreat tienda", "Mercado Libre" ...)
-- DESCRIPCIÓN: ejemplo (página web, local físico,...)
+- NOMBRE: ejemplo ("Bgreat tienda", "Mercado Libre" ...).
+- DESCRIPCIÓN: ejemplo (página web, local físico,...).
 
-3. **PROVEEDORES**:
+4. **PROVEEDORES**:
    
 ![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/ddca20d0-0e4f-45ca-ab5e-6fb262a5c78a)
 
@@ -60,7 +73,7 @@ Atributos:
 - NOMBRE
 - EMAIL: correo de contacto. 
 
-4. **PRODUCTOS**:
+5. **PRODUCTOS**:
    
 ![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/eb593b3b-f71a-4f96-9ab6-b1619d3b5878)
 
@@ -74,9 +87,9 @@ Atributos:
 - DISPONIBILIDAD:TRUE si hay stock del producto, FALSE en caso contrario
 - ID_PROVEEDOR: FK, identifica al proveedor del producto. 
 
-5. **COMPRA**:
+6. **COMPRA**:
    
-![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/73a2e863-1455-4a39-8fc0-28766ee32671)
+![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/f6557562-5712-46d2-999c-45891c6343ca)
 
 Esta es una tabla de hechos ya que definen el modelo de negocios. Además captura las transacciones que se realizan en la empresa en un momento específico. 
  
@@ -88,11 +101,13 @@ Atributos:
 - ID_PRODUCTO: FK, identificador de producto
 - ID_PROVEEDOR: FK, identifica al proveedor del producto. 
 - CANTIDAD: cantidad de unidades del producto.
+- ENVIO: TRUE si la compra requiere envío, FALSE en caso contrario
 
 
 ### DER
 
-![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/090215d4-6190-49a5-81ea-244889c294e9)
+![image](https://github.com/manuelamstrauch/Entrega_coderhouse/assets/174389228/abc8be94-934e-49a5-a08a-70edacdb091f)
+
 
 
 
