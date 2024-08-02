@@ -33,9 +33,9 @@ Descripcion de los tipos de datos
 
 ### 1. ZONA
 
-| Tabla | Columna       | Tipo de Datos                 |
-| ----- | --------------| -----------------------------  |
-| zona  | id_zona       | INT NOT NULL AUTO_INCREMENT    |
+| Tabla | Columna       | Tipo de Datos                  |
+| ----- | --------------| ------------------------------  |
+| zona  | id_zona       | INT NOT NULL AUTO_INCREMENT     |
 |       | nombre        | VARCHAR(100) NOT NULL          |
 |       | precio_envio  | INT DEFAULT '200'              |
 
@@ -105,12 +105,6 @@ Descripcion de los tipos de datos
 | Columna   | Referencia        |
 | --------- | ------------------|
 | id_zona   | zona(id_zona)    |
-
-### Claves Foráneas en productos
-
-| Columna      | Referencia                |
-| ------------ | -------------------------- |
-| id_proveedor | proveedores(id_proveedor) |
 
 ### Claves Foráneas en inventario
 
