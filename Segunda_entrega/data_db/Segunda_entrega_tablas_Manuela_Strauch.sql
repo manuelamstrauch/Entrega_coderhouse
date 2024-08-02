@@ -1,7 +1,6 @@
 DROP DATABASE
 	IF EXISTS bgreat_db;
 
--- Crea Database a utilizar
 CREATE DATABASE 
 	IF NOT EXISTS bgreat_db;
 
@@ -69,10 +68,6 @@ CREATE TABLE compra(
 ALTER TABLE clientes
 	ADD CONSTRAINT fk_zona_clientes
 	FOREIGN KEY (id_zona) REFERENCES zona(id_zona);
-
-ALTER TABLE productos
-	ADD CONSTRAINT fk_proveedor_productos
-	FOREIGN KEY (id_proveedor) REFERENCES proveedores(id_proveedor);
     
 ALTER TABLE inventario
 	ADD CONSTRAINT fk_inventario_proveedor
