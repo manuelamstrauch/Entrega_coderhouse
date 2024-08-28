@@ -365,7 +365,7 @@ CALL realizar_compra(1, 2, 1, 2, TRUE);
 
 ## Documentación de Roles
 Se genera 2 roles:
-1. 'rol_mkt': Rol de marketing, que solo permite hacer SELECT a las vistas.
-2. 'rol_admin': Rol de administración que permite al usuario todos los privilegios sobre 4 tablas relacionadas al core del negocio (COMPRA, INVENTARIO, PRODUCTOS, PROVEEDORES).
+1. **rol_mkt**: Rol de marketing, que solo permite hacer SELECT a las vistas.
+2. **rol_admin**: Rol de administración que permite al usuario todos los privilegios sobre 4 tablas relacionadas al core del negocio (COMPRA, INVENTARIO, PRODUCTOS, PROVEEDORES).
 
 Además, se crea un superusuario con todos los privilegios sobre la base de datos.
