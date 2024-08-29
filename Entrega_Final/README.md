@@ -14,7 +14,7 @@
 
 ### Problema:
 
-Bgreat es una empresa especializada en la venta de artículos tecnológicos y dispositivos smart para el hogar, con una trayectoria de cuatro años en el sector. A medida que la empresa ha acumulado una vasta cantidad de datos, se ha enfrentado a limitaciones significativas en la gestión y explotación efectiva de los mismos. 
+Bgreat, una empresa con cuatro años de experiencia en la venta de artículos tecnológicos y dispositivos inteligentes para el hogar, ha enfrentado crecientes desafíos en la gestión y aprovechamiento de la gran cantidad de datos acumulados. A medida que la empresa ha expandido su base de clientes y su inventario, las limitaciones en la organización y análisis de estos datos han comenzado a afectar la eficiencia operativa y la toma de decisiones estratégicas. Este desafío ha sido el foco del proyecto durante el curso, donde se buscó desarrollar una solución robusta y escalable para optimizar la gestión de datos y mejorar la toma de decisiones.
 
 ### Descripción del Problema:
 
